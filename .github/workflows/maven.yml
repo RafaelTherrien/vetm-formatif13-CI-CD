@@ -5,7 +5,7 @@ name: Java CI with Maven
       - main
   pull_request:
     branches:
-      - main
+      - "**"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '17'
-          distribution: temurin
+          distribution: 'zulu'
           cache: maven
       - name: Installer Maven 3.9.6
         run: |
