@@ -2,6 +2,7 @@ package org.climoilou.vetm;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MainTest {
@@ -10,4 +11,7 @@ class MainTest {
     void mainTest() {
         assertTrue(true);
     }
+
+    @Test
+    void failTest(){assertFalse(true);}
 }
