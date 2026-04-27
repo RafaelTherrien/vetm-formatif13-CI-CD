@@ -12,6 +12,28 @@ class MainTest {
     }
 
     @Test
+    void testCesarCipherSimple() {
+        assertEquals("cde", Main.cesarCipher("abc", 2));
+    }
+
+    @Test
+    void testCesarCipherAvecEspace() {
+        assertEquals("b c", Main.cesarCipher("a b", 1));
+    }
+
+    @Test
+    void testCesarCipherAvecRotation() {
+        assertEquals("a", Main.cesarCipher("z", 1));
+    }
+
+    @Test
+    void testCesarDecipher() {
+        String message = "bonjour";
+        String chiffre = Main.cesarCipher(message, 3);
+        assertEquals(message, Main.cesarDecipher(chiffre, 3));
+    }
+
+    @Test
     void failTest1() {
         assertFalse(false);
     }
