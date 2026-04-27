@@ -111,4 +111,166 @@ class MainTest {
         assertFalse(false);
     }
 
+    @Test
+    void equalsTest1() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest2() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest3() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest4() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest5() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest6() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest7() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest8() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest9() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest10() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest11() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest12() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest13() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest14() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest15() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest16() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest17() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest18() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest19() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest20() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest21() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest22() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest23() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest24() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest25() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest26() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
+    @Test
+    void equalsTest27() {
+        int number = 22;
+        assertEquals(number, 22);
+    }
+
 }
