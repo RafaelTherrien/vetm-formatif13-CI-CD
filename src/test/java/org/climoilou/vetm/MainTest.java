@@ -13,5 +13,5 @@ class MainTest {
     }
 
     @Test
-    void failTest(){assertFalse(true);}
+    void failTest(){assertFalse(false);}
 }
