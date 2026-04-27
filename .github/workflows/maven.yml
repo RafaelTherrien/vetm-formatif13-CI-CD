@@ -26,6 +26,6 @@ jobs:
       - name: Exécuter les tests
         run: mvn -B test --file pom.xml
       - name: Lint
-        run: mvn -B formatter:validate --file pom.xml
+        run: mvn -B formatter:validate
       - name: Coverage
         run: mvn -B verify --file pom.xml
