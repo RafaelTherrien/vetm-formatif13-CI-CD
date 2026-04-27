@@ -25,3 +25,5 @@ jobs:
         run: mvn -B compile --file pom.xml
       - name: Exécuter les tests
         run: mvn -B test --file pom.xml
+      - name: Lint
+        run: 'mvn -B formatter:validate'
